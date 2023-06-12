@@ -7,4 +7,4 @@ os_fun = dir(os)
 #     os.mkdir(f"dev/pyhton_{i}")
 for i in os_fun:
     s = f"os.{i}"
-    print(f"{i} : {help(s)}")
+    print(f"{i} : {help (s)}")

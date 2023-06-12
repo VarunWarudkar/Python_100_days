@@ -18,7 +18,7 @@ In conclusion, Python's simplicity, readability, versatility, extensive library 
     #f.truncate(10)
 with open("os.txt",'r') as f:
     data = f.read()
-    print(f.read())
+    #print(f.read())
 
 d_words = data.split(" ")
 print(len(d_words))
